@@ -33,4 +33,20 @@ RSpec.describe Calculator do
       expect(subject.division).to eq 2
     end
   end
+
+  describe '#pow' do
+    subject { Calculator.new(10, 5) }
+
+    it 'returns pow of two numbers' do
+      expect(subject.pow).to eq 100000
+    end
+  end
+
+  describe '#division_remainder' do
+    subject { Calculator.new(10, 5) }
+
+    it 'returns remainder of a division' do
+      expect(subject.division_remainder).to eq 0
+    end
+  end
 end

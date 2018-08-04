@@ -23,4 +23,12 @@ class Calculator
   def division
     number1 / number2
   end
+
+  def pow
+    number1 ** number2
+  end
+
+  def division_remainder
+    number1 % number2
+  end
 end
