@@ -22,6 +22,8 @@ class Calculator
 
   def division
     number1 / number2
+  rescue ZeroDivisionError
+    'Impossible divison'
   end
 
   def pow
