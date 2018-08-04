@@ -1,2 +1,2 @@
 # ExampleRSpec
-Simple test examples with RSpec.
+Simple tests examples with RSpec.
