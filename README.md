@@ -1,5 +1,5 @@
 # ExampleRSpec
-Simple tests examples with RSpec.
+Simple Ruby tests examples with RSpec.
 
 ### Instructions
 1 - Install RSpec with `gem install rspec`<br />
