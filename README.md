@@ -1,4 +1,4 @@
-# ExampleRSpec
+# Example RSpec
 Simple Ruby tests examples with RSpec.
 
 ### Instructions
