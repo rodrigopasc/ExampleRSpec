@@ -1,19 +1,29 @@
 class Bank
   def initialize
-
+    @balances = 0
   end
 
   # Methods
 
   def balance
+    @balances
   end
 
-  def withdraw
+  def withdraw(value)
+    @balances -= value
   end
 
-  def deposited
+  def deposit(value)
+    @balances += value
   end
 
   def situation
+    "#{balance} - #{status}"
+  end
+
+  private
+
+  def status
+    balance > 0 ? 'Positive' : 'Negative'
   end
 end
